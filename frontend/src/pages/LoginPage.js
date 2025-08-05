@@ -18,7 +18,7 @@ function LoginPage() {
     }
 
     try {
-      const res = await axios.post('http://localhost:5000/api/login', { email, password });
+      const res = await axios.post('https://my-majestic-grid-backend.onrender.com/api/login', { email, password });
       localStorage.setItem('token', res.data.token);
       window.location.href = '/dashboard';
     } catch (err) {
