@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT =  5000;
 const JWT_SECRET = 'majestic_secret_key';
 
 // MongoDB connection

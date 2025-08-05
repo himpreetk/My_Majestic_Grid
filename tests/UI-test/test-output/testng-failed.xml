@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Majestic_UI_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Majestic_UI_Tests(failed)">
+    <classes>
+      <class name="tests.LoginUITest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testValidLogin"/>
+          <include name="tearDown"/>
+          <include name="testBlankBoth"/>
+          <include name="openApp"/>
+          <include name="testInvalidPassword"/>
+          <include name="testBlankEmail"/>
+          <include name="setUpReport"/>
+          <include name="testInvalidEmail"/>
+          <include name="flushReport"/>
+          <include name="testInvalidBoth"/>
+          <include name="captureResults"/>
+          <include name="testBlankPassword"/>
+        </methods>
+      </class> <!-- tests.LoginUITest -->
+      <class name="tests.DashboardUITest">
+        <methods>
+          <include name="testAddCarBrandBeyondLimit"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+          <include name="testAddCarBrandInvalidCharacters"/>
+          <include name="initTest"/>
+          <include name="testAddDuplicateCarBrand"/>
+          <include name="testAddCarBrand"/>
+          <include name="tearDownReport"/>
+          <include name="testEditCarBrandToBlank"/>
+          <include name="testEditCarBrandToDuplicate"/>
+          <include name="tearDown"/>
+          <include name="testEditCarBrandToNewName"/>
+          <include name="setUpReport"/>
+          <include name="testAddCarBrandBlank"/>
+          <include name="testDeleteCarBrand"/>
+        </methods>
+      </class> <!-- tests.DashboardUITest -->
+    </classes>
+  </test> <!-- Majestic_UI_Tests(failed) -->
+</suite> <!-- Failed suite [Majestic_UI_Suite] -->

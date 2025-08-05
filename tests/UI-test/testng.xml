@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Majestic_UI_Suite">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+
+  <test name="Majestic_UI_Tests">
+    <classes>
+      <class name="tests.LoginUITest"/>
+      <class name="tests.DashboardUITest"/>
+    </classes>
+  </test>
+</suite>

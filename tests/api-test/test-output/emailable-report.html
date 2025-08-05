@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Majestic API Test Suite</th></tr>
+<tr><td><a href="#t0">Login and Dashboard API Tests</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">1,809</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Majestic API Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login and Dashboard API Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">tests.DashboardApiTest</td><td><a href="#m0">testEditBrandWithBlankName</a></td><td rowspan="1">1753749557600</td><td rowspan="1">21</td></tr><tr class="failedeven"><td><a href="#m1">testEditBrandWithDuplicateName</a></td><td rowspan="1">1753749557581</td><td rowspan="1">17</td></tr><tr><th colspan="4">Login and Dashboard API Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">tests.DashboardApiTest</td><td><a href="#m2">testAddBlankBrand</a></td><td rowspan="1">1753749557486</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m3">testAddInvalidCharactersBrand</a></td><td rowspan="1">1753749557471</td><td rowspan="1">13</td></tr><tr class="passedeven"><td><a href="#m4">testAddMoreThanFiveBrands</a></td><td rowspan="1">1753749557499</td><td rowspan="1">55</td></tr><tr class="passedeven"><td><a href="#m5">testAddValidBrand</a></td><td rowspan="1">1753749557422</td><td rowspan="1">30</td></tr><tr class="passedeven"><td><a href="#m6">testDeleteBrand</a></td><td rowspan="1">1753749557623</td><td rowspan="1">13</td></tr><tr class="passedeven"><td><a href="#m7">testDuplicateBrand</a></td><td rowspan="1">1753749557453</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m8">testEditBrandWithNewName</a></td><td rowspan="1">1753749557556</td><td rowspan="1">24</td></tr><tr class="passedodd"><td rowspan="7">tests.LoginApiTest</td><td><a href="#m9">testBlankEmailAndPassword</a></td><td rowspan="1">1753749557374</td><td rowspan="1">13</td></tr><tr class="passedodd"><td><a href="#m10">testBlankEmailValidPassword</a></td><td rowspan="1">1753749557342</td><td rowspan="1">14</td></tr><tr class="passedodd"><td><a href="#m11">testInvalidCredentials</a></td><td rowspan="1">1753749557287</td><td rowspan="1">19</td></tr><tr class="passedodd"><td><a href="#m12">testInvalidEmailValidPassword</a></td><td rowspan="1">1753749557325</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m13">testValidEmailBlankPassword</a></td><td rowspan="1">1753749557357</td><td rowspan="1">15</td></tr><tr class="passedodd"><td><a href="#m14">testValidEmailInvalidPassword</a></td><td rowspan="1">1753749557308</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m15">testValidLogin</a></td><td rowspan="1">1753749555851</td><td rowspan="1">1431</td></tr></tbody>
+</table>
+<h2>Login and Dashboard API Tests</h2><h3 id="m0">tests.DashboardApiTest#testEditBrandWithBlankName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [200]
+	at tests.DashboardApiTest.testEditBrandWithBlankName(DashboardApiTest.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.DashboardApiTest#testEditBrandWithDuplicateName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [200]
+	at tests.DashboardApiTest.testEditBrandWithDuplicateName(DashboardApiTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.DashboardApiTest#testAddBlankBrand</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.DashboardApiTest#testAddInvalidCharactersBrand</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.DashboardApiTest#testAddMoreThanFiveBrands</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.DashboardApiTest#testAddValidBrand</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.DashboardApiTest#testDeleteBrand</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.DashboardApiTest#testDuplicateBrand</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.DashboardApiTest#testEditBrandWithNewName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.LoginApiTest#testBlankEmailAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.LoginApiTest#testBlankEmailValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.LoginApiTest#testInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.LoginApiTest#testInvalidEmailValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.LoginApiTest#testValidEmailBlankPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.LoginApiTest#testValidEmailInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.LoginApiTest#testValidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
