@@ -1,3 +1,11 @@
+const cors = require('cors');
+
+app.use(cors({
+  origin: 'https://my-majestic-grid-frontend.vercel.app/',
+  credentials: true
+}));
+
+
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
