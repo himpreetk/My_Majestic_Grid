@@ -8,7 +8,7 @@ function Dashboard() {
   const navigate = useNavigate();
 
   const fetchBrands = async () => {
-    const res = await axios.get('http://localhost:5000/api/brands');
+    const res = await axios.get('https://my-majestic-grid-backend.onrender.com/api/brands');
     setBrands(res.data);
   };
 
@@ -25,7 +25,7 @@ function Dashboard() {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/brands', { name: newBrand });
+      await axios.post('https://my-majestic-grid-backend.onrender.com/api/brands', { name: newBrand });
       setNewBrand('');
       fetchBrands();
     } catch (err) {
@@ -35,14 +35,14 @@ function Dashboard() {
   };
 
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:5000/api/brands/${id}`);
+    await axios.delete(`https://my-majestic-grid-backend.onrender.com/api/brands/${id}`);
     fetchBrands();
   };
 
   const handleUpdate = async (id, currentName) => {
     const updated = prompt('Update brand name:', currentName);
     if (updated) {
-      await axios.put(`http://localhost:5000/api/brands/${id}`, { name: updated });
+      await axios.put(`https://my-majestic-grid-backend.onrender.com/api/brands/${id}`, { name: updated });
       fetchBrands();
     }
   };
