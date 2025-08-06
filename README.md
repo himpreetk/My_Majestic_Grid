@@ -1,12 +1,24 @@
 # My_Majestic_Grid
 
-    My_Majestic_Grid is a comprehensive full-stack web application accompanied by an industry-aligned, test 
-    automation suite. It is structured to demonstrate core principles of software engineering, including 
-    full-stack development, test-driven development (TDD), modular automation frameworks, and structured 
-    QA processes.
+    My_Majestic_Grid is a full-stack web application that simulates a lightweight admin system for managing
+    a Global Car Brand List. Designed for testing and demonstration purposes, the app implements both 
+    authentication and core CRUD operations through a responsive dashboard.
 
-    This project integrates a React.js frontend, Node.js backend with MongoDB, alongside robust Java-based 
-    API and UI test frameworks using Rest Assured, Selenium, TestNG, and Extent Reports.
+    🔐 Core Features
+
+        🔑 Login Functionality
+                Users authenticate using secure credentials to access the protected dashboard.
+
+                ![Frontend Screenshot](frontend/front%20end%20screenshots/f3.png)
+
+        📊 Dashboard Interface
+                Authenticated users can view and interact with a table of global car brands in a dynamic grid layout.
+
+        🛠 CRUD Operations
+                - Create: Add a new car brand entry with key attributes
+                - Read: View the list of all existing global brands
+                - Update: Modify car brand information inline or via a form
+                - Delete: Remove obsolete or unwanted brand entries
 
 🌐 Live Application
 
